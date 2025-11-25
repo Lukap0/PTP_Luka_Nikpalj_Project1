@@ -5523,6 +5523,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 157.48) (xy 151.13 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c90aa5e-1074-41d2-9d66-2f95c1e27a92")
+	)
+	(wire
+		(pts
 			(xy 74.93 45.72) (xy 77.47 45.72)
 		)
 		(stroke
@@ -6773,7 +6783,7 @@
 	)
 	(global_label "Reset"
 		(shape input)
-		(at 152.4 157.48 0)
+		(at 151.13 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6783,7 +6793,7 @@
 		)
 		(uuid "f9603930-24f4-40fe-8d82-60147954cf72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.5862 157.48 0)
+			(at 159.3162 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,10 +6826,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" ""
 			(at 48.26 97.79 0)
 			(effects
 				(font
@@ -6839,24 +6848,6 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 48.26 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "ROYALOHM"
-			(at 48.26 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part number" "1206S4F2001T5E "
-			(at 48.26 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12202,7 +12193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "SOT-23-6:SOT-23-6"
 			(at 153.67 146.05 0)
 			(effects
 				(font
